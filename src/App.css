@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1f1f1f;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 500px;
+  margin: 100px auto;
+}
+.Yash {
+  color:white;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input,
+textarea {
+  padding: 15px;
+  border: 1px solid gray;
+  background: transparent;
+  color: white;
+  border-radius: 8px;
+}
+
+textarea {
+  resize: none;
+  height: 120px;
+}
+
+button {
+  padding: 15px;
+  border: none;
+  background: black;
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
